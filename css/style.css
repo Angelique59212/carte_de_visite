@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Lato:wght@100;400&family=Zen+Kurenaido&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Zen Kurenaido', sans-serif;;
+    font-size: 1.5rem;
+}
+
+#container {
+    width: 70%;
+    margin: 23.5rem auto;
+}
+
+#text {
+    display: inline-block;
+    width: 50%;
+    background: linear-gradient(#f5f3f3, #efd6d6);
+    box-shadow: 1px 5px 10px 1px grey;
+}
+
+#left {
+    width: 82%;
+    padding: 0.8rem;
+    float: left;
+}
+
+#title {
+    font-size: 1.1rem;
+}
+
+#contact {
+    color:purple;
+}
+
+.inline {
+    display: inline-block;
+    width: 34%;
+}
+
+span {
+    margin-left: 11rem;
+}
+
+i {
+    padding-right: 0.8rem;
+}
+
+#contact > span + p {
+    padding-left: 2.2rem;
+}
+
+#choice {
+    color: deeppink;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#mail {
+    margin-top: 0.8rem;
+}
+
+#right {
+    display: inline-block;
+    width: 18%;
+}
+
+img {
+    width: 100%;
+    margin-top: 5rem;
+}
